@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Noto+Sans+JP:wght@100&display=swap');
+
+// app global css in SCSS form
+@font-face {
+    font-family: 'GenshinImpactBody';
+    src: url(assets/fonts/ja-jp.ttf);
+}
+
+@font-face {
+    font-family: 'GenshinImpactTitle';
+    src: url(assets/fonts/zh-cn.ttf);
+}
+
+*:not(i) {
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.genshin-btn {
+  border: none;
+  opacity: 0.85;
+  border-radius: 3px;
+}
+
+.genshin-btn:hover {
+  opacity: 1.0;
+}
